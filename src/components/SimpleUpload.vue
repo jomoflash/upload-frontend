@@ -65,7 +65,7 @@ export default {
       try {
         await axios({
           method: "POST",
-          url: "http://localhost:3000/upload",
+          url: "http://3.141.186.93:3000/upload",
           data: formData,
         });
 
